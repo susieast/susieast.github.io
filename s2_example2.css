@@ -9,8 +9,8 @@
 body {
     /* try choosing a font here */
     /* uncomment the line below and replace the font name with your choice */
-    /* font-family: */
-    font-size: 40px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 20px;
     /* color: #333; */
     line-height: 1.6;
     /* we want a page, that's centered and not too wide */
