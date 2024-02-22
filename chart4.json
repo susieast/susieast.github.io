@@ -1,0 +1,20 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "title": {
+    "text":"Potato farming in Wales",
+    "subtitle": ["£ million", "Source: Wales Farm Accounts"]
+  },
+
+  "width": 400,
+  "height": 300,
+
+  "data": {"url": "https://raw.githubusercontent.com/susieast/susieast.github.io/main/WalesPotatoes.csv"},
+
+  "mark": {"type": "line", "color": "orange"},
+
+  "encoding": {
+    "x": {"field": "Year", "type": "temporal"},
+    "y": {"field": "Potatoes", "type": "quantitative", "title":null}
+  }
+}
